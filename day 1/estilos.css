@@ -1,0 +1,90 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(34,193,195);
+    background: linear-gradient(238deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.uno-uno,
+.uno-dos{
+    border-radius: 4px;
+    background: white;
+    width: 23px;
+    top: 0;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0,0.2);
+    
+}
+
+.uno-uno{
+    position: absolute;
+    left: -16px;
+    height: 40px;
+    transform: rotate(50deg);
+}
+
+
+.uno-dos{
+    z-index: 1;
+    position:relative;
+    left: 0px;
+    height: 100px;
+}
+
+.cero-uno,
+.cero-dos{
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0,0.2);
+}
+.cero-dos{
+    z-index: -6;
+    left: 100px;
+}
+.texto-1{
+    position: relative;
+    z-index: 20;
+    display: block;
+    font-size: 75px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.texto-2{
+    position: relative;
+    z-index: 20;
+    font-size: 22px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
